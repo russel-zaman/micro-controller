@@ -1,0 +1,13 @@
+
+
+Serial Wire Debug (SWD) is a two-wire protocol for accessing the ARM debug interface
+It is part of the ARM Debug Interface Specification v5 and is an alternative to JTAG
+The physical layer of SWD consists of two lines:
+SWDIO: a bidirectional data line
+SWCLK: a clock driven by the host
+By using SWD interface, one can:
+Program MCUs internal flash
+Access memory regions
+Add breakpoints
+Stop/run CPU
+The other good thing about SWD is that you can use the serial wire viewer for your printf statements for debugging.
